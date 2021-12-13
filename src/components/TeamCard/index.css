@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   width: 49%;
   background-color: #ffffff33;
   border-radius: 15px;
@@ -34,4 +33,12 @@
 .link-item {
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 576px) {
+  .team-card {
+    height: 150px;
+  }
+  .team-name {
+    font-size: 28px;
+  }
 }
